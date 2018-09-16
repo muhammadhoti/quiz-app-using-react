@@ -1,0 +1,66 @@
+.loginPage{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.loginPageHeader{
+    text-align: center;
+}
+
+.signUpPage{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.quizListHeader{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center
+}
+.QuizPageSubHeader{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center
+}
+.quizList{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+.quizBox{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 2px black double;
+}
+.questionBox{
+    width: 100%;
+}
+.answerBox{
+    text-align: left;
+    width: 100%;
+}
+resultHeader{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center
+}
+.resultBox{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    
+}
+.logOut{
+    width: 15%;
+    padding: 10px;
+    float: right;
+}
