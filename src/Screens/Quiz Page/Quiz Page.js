@@ -23,18 +23,17 @@ class QuizPage extends Component {
     const ans1 = document.getElementById('ans1');
     const ans2 = document.getElementById('ans2');
     const correctAns = quizCategories[mainCategory].subCategories[subCategory].allQuestions[qNo].correctAnswer;
-    if (present < length-1){
-    ans1.checked ?
-    ans1.value === correctAns && this.setState({score : score+10})
-    :
-    ans2.value === correctAns && this.setState({score : score+10})
-    }
+    
+    ans1.checked && ans1.value === correctAns && this.setState({score : score+10})
+    ans2.checked && ans2.value === correctAns && this.setState({score : score+10})
+    
     if (present < length-1){
     
     this.setState({qNo : present+1})
     
     }
     else{
+      
       const date = new Date();
       const month = date.getMonth()+1;
       const timing = date.getDate() + "/" + month + "/" + date.getFullYear()
